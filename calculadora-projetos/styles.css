@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+}
+
+.Calculadora{
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#display{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+}
+
+.botoes button{
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+}
